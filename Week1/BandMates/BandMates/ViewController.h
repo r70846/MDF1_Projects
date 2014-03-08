@@ -16,5 +16,6 @@
 }
 
 - (void)loadData;
+-(IBAction)onClick;
 
 @end

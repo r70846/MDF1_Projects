@@ -56,6 +56,29 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)onClick
+{
+    //Toggle switch: Put my tableview into edit mode (or out of edit mode)
+    mainTableView.editing = !mainTableView.isEditing;
+}
+
+
+
+//Gets called as soon as the delete button is pressed
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //Are we in delete mode
+    if(editingStyle == UITableViewCellEditingStyleDelete)
+    {
+        //Remove the data from the data array
+        [musicianArray removeObjectAtIndex:indexPath.row];
+        
+        //Remove the line item from tableview
+        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+    }
+}
+
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
