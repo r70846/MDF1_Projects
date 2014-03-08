@@ -10,12 +10,15 @@
 
 @interface ViewController : UIViewController  <UITableViewDataSource, UITableViewDelegate>
 {
+    
+    IBOutlet UILabel *countLabel;
     IBOutlet UITableView *mainTableView;
     NSMutableArray *musicianArray;
     
 }
 
 - (void)loadData;
+- (void)displayCount;
 -(IBAction)onClick;
 
 @end
