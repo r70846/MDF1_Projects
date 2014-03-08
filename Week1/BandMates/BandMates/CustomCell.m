@@ -26,11 +26,12 @@
     // Configure the view for the selected state
 }
 
--(void)refreshCellWithInfo:(NSString*)nameString instString:(NSString*)instString
+-(void)refreshCellWithInfo:(NSString*)nameString instString:(NSString*)instString cellImage:(UIImage*)cellImage
 {
     
     nameLabel.text = nameString;
     instLabel.text = instString;
+    myImageView.image = cellImage;
     
 }
 

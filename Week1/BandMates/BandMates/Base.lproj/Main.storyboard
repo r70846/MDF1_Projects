@@ -49,10 +49,15 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KGe-iw-ncP">
+                                                    <rect key="frame" x="181" y="8" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="instLabel" destination="icB-5o-0G1" id="rqu-as-gW2"/>
+                                            <outlet property="myImageView" destination="KGe-iw-ncP" id="5bw-zP-QI2"/>
                                             <outlet property="nameLabel" destination="CLw-E5-Ngs" id="5iX-ha-e2h"/>
                                             <segue destination="e1Z-29-Ir0" kind="modal" identifier="detailViewSelection" id="ZGd-ve-N1B"/>
                                         </connections>

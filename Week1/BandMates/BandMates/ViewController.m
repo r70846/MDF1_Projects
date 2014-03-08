@@ -69,7 +69,7 @@
     {
         BandMateClass *currentMusician = [musicianArray objectAtIndex:indexPath.row];
         
-        [cell refreshCellWithInfo:currentMusician.name instString:currentMusician.instrument];
+        [cell refreshCellWithInfo:currentMusician.name instString:currentMusician.instrument cellImage:currentMusician.instImage];
         
         
         //cell.textLabel.text = currentMusician.name;

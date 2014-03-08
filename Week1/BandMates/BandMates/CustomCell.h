@@ -12,12 +12,11 @@
 {
     IBOutlet UILabel *nameLabel;
     IBOutlet UILabel *instLabel;
-    
-    //IBOutlet UIImageView *cellImageView;
+    IBOutlet UIImageView *myImageView;
     
 }
 
--(void)refreshCellWithInfo:(NSString*)nameString instString:(NSString*)instString;
+-(void)refreshCellWithInfo:(NSString*)nameString instString:(NSString*)instString cellImage:(UIImage*)cellImage;
 
 
 
