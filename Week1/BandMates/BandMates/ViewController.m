@@ -144,6 +144,12 @@
     }
 }
 
+
+-(IBAction)done:(UIStoryboardSegue*)segue
+{
+
+    
+}
 //Function to load hard coded data into array of BandMate objects
 - (void)loadData
 {
