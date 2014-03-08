@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "DetailViewController.h"
 #import "BandMateClass.h"
+#import "CustomCell.h"
 
 @interface ViewController ()
 
@@ -62,12 +63,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MusicianCell"];
+    CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MusicianCell"];
     
     if (cell != nil)
     {
         BandMateClass *currentMusician = [musicianArray objectAtIndex:indexPath.row];
-        cell.textLabel.text = currentMusician.name;
+        
+        [cell refreshCellWithInfo:currentMusician.name instString:currentMusician.instrument];
+        
+        
+        //cell.textLabel.text = currentMusician.name;
         //cell.detailTextLabel.text = @"this is a test";
         
     }

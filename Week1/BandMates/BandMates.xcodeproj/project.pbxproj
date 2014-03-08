@@ -13,6 +13,7 @@
 		60246D6A18CABEEF00D4000B /* keys80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6418CABEEF00D4000B /* keys80b.gif */; };
 		60246D6B18CABEEF00D4000B /* other80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6518CABEEF00D4000B /* other80b.gif */; };
 		60246D6C18CABEEF00D4000B /* vocals80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6618CABEEF00D4000B /* vocals80b.gif */; };
+		60246D6F18CACA3500D4000B /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60246D6E18CACA3500D4000B /* CustomCell.m */; };
 		6048260518CA80810011D92A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6048260418CA80810011D92A /* Foundation.framework */; };
 		6048260718CA80810011D92A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6048260618CA80810011D92A /* CoreGraphics.framework */; };
 		6048260918CA80810011D92A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6048260818CA80810011D92A /* UIKit.framework */; };
@@ -48,6 +49,8 @@
 		60246D6418CABEEF00D4000B /* keys80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = keys80b.gif; path = img/keys80b.gif; sourceTree = "<group>"; };
 		60246D6518CABEEF00D4000B /* other80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = other80b.gif; path = img/other80b.gif; sourceTree = "<group>"; };
 		60246D6618CABEEF00D4000B /* vocals80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = vocals80b.gif; path = img/vocals80b.gif; sourceTree = "<group>"; };
+		60246D6D18CACA3500D4000B /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		60246D6E18CACA3500D4000B /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		6048260118CA80810011D92A /* BandMates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandMates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6048260418CA80810011D92A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6048260618CA80810011D92A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -147,6 +150,8 @@
 				6048263D18CA99400011D92A /* BandMateClass.m */,
 				6048261C18CA80810011D92A /* Images.xcassets */,
 				6048260B18CA80810011D92A /* Supporting Files */,
+				60246D6D18CACA3500D4000B /* CustomCell.h */,
+				60246D6E18CACA3500D4000B /* CustomCell.m */,
 			);
 			path = BandMates;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			files = (
 				6048261B18CA80810011D92A /* ViewController.m in Sources */,
 				6048261518CA80810011D92A /* AppDelegate.m in Sources */,
+				60246D6F18CACA3500D4000B /* CustomCell.m in Sources */,
 				6048261118CA80810011D92A /* main.m in Sources */,
 				6048263B18CA8EDA0011D92A /* DetailViewController.m in Sources */,
 				6048263E18CA99400011D92A /* BandMateClass.m in Sources */,
