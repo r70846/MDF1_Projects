@@ -5,6 +5,14 @@
 //  Created by Russell Gaspard on 3/7/14.
 //  Copyright (c) 2014 Russell Gaspard. All rights reserved.
 //
+/*
+ 
+ Russ Gaspard
+ Project 1
+ Mobile Development
+ MDF1 1403
+ 
+ */
 
 #import "DetailViewController.h"
 
@@ -31,20 +39,15 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    
-    //nameLabel.text = self.nameString;
-    //secondaryLabel.text = self.secondaryString;
-    
+
+    //Fill UI elements with data specific to the BandMateClass object that was chosen from he table view
     nameLabel.text = self.currentMusician.name;
     instLabel.text = self.currentMusician.instrument;
     phoneLabel.text = self.currentMusician.phone;
     emailLabel.text = self.currentMusician.email;
     notesLabel.text = self.currentMusician.notes;
     detailImage.image = self.currentMusician.instImage;
-    
-    //secondaryLabel.text = self.currentPerson.description;
-    
-    
+
     [super viewWillAppear:(BOOL)animated];
 }
 

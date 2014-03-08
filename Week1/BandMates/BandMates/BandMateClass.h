@@ -5,6 +5,14 @@
 //  Created by Russell Gaspard on 3/7/14.
 //  Copyright (c) 2014 Russell Gaspard. All rights reserved.
 //
+/*
+ 
+ Russ Gaspard
+ Project 1
+ Mobile Development
+ MDF1 1403
+ 
+ */
 
 #import <Foundation/Foundation.h>
 
@@ -13,6 +21,7 @@
     
 }
 
+//Properties to define/describe the charicteristics of this BandMateClass object
 @property (nonatomic, strong)NSString *name;
 @property (nonatomic, strong)NSString *instrument;
 @property (nonatomic, strong)NSString *phone;

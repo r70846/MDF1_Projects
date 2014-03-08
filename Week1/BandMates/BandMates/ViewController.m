@@ -5,6 +5,14 @@
 //  Created by Russell Gaspard on 3/7/14.
 //  Copyright (c) 2014 Russell Gaspard. All rights reserved.
 //
+/*
+ 
+ Russ Gaspard
+ Project 1
+ Mobile Development
+ MDF1 1403
+ 
+ */
 
 #import "ViewController.h"
 #import "DetailViewController.h"
@@ -37,7 +45,7 @@
 
 -(IBAction)onClick
 {
-    //Toggle switch: Put my tableview into edit mode (or out of edit mode)
+    //Toggle switch: Put table view into edit mode (or out of edit mode)
     mainTableView.editing = !mainTableView.isEditing;
 }
 
@@ -55,19 +63,19 @@
         //Remove the line item from tableview
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
         
-        //Call method to show Band Mate count in main view display
+        //Show Band Mate count in main view display
         [self displayCount];
     }
 }
 
 
-
+//Number of rows in table will equal the number of BandMateClass objects in my data array
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [musicianArray count];
 }
 
-
+//Set each custom cell to reflect data from the same index of my BandMateClass objects array
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     CustomCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MusicianCell"];
@@ -77,10 +85,6 @@
         BandMateClass *currentMusician = [musicianArray objectAtIndex:indexPath.row];
         
         [cell refreshCellWithInfo:currentMusician.name instString:currentMusician.instrument cellImage:currentMusician.instImage];
-        
-        
-        //cell.textLabel.text = currentMusician.name;
-        //cell.detailTextLabel.text = @"this is a test";
         
     }
     return cell;
@@ -105,7 +109,7 @@
     }
 }
 
-//Function to allow return fro segue
+//Function to allow return from segue
 -(IBAction)done:(UIStoryboardSegue*)segue
 {
 
