@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "DetailViewController.h"
-
+#import "BandMateClass.h"
 
 @interface ViewController ()
 
@@ -19,11 +19,25 @@
 - (void)viewDidLoad
 {
     
-    //Hard Code Data Into Array
+    //Hard Code BandMate Objects
+    BandMateClass *musician1 = [[BandMateClass alloc] init];
+    musician1.name = @"Russ Gaspard";
+    musician1.instrument = @"Violin";
+    musician1.phone = @"(321)439-0605";
     
-     wordArray = [[NSArray alloc] initWithObjects:@"one", @"two", @"three", @"four", nil];
+    BandMateClass *musician2 = [[BandMateClass alloc] init];
+    musician2.name = @"Dave Gibbs";
+    musician2.instrument = @"Keys";
+    musician2.phone = @"(321)464-8967";
+    
+    BandMateClass *musician3 = [[BandMateClass alloc] init];
+    musician3.name = @"Shawn Bayne";
+    musician3.instrument = @"Drums";
+    musician3.phone = @"(407)898-4264";
+    
 
-    
+    //Put all of our Band Mate objects into an array of musicians
+    musicianArray = [[NSMutableArray alloc] initWithObjects:musician1, musician2, musician3, nil];
     
     
     
@@ -40,7 +54,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return [musicianArray count];
 }
 
 
@@ -49,8 +63,9 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MusicianCell"];
     
     if (cell != nil)
-    { 
-        cell.textLabel.text = [wordArray objectAtIndex:indexPath.row];
+    {
+        BandMateClass *currentMusician = [musicianArray objectAtIndex:indexPath.row];
+        cell.textLabel.text = currentMusician.name;
         //cell.detailTextLabel.text = @"this is a test";
         
     }
@@ -70,7 +85,13 @@
         NSIndexPath *indexPath = [mainTableView indexPathForCell:cell];
         
         //Get the string from the array based on the item in the tableview we clicked on
-        NSString *selectedString = [wordArray objectAtIndex:indexPath.row];
+        
+        BandMateClass *currentMusician = [musicianArray objectAtIndex:indexPath.row];
+        
+        detailViewController.currentMusician = currentMusician;
+        
+        
+        //NSString *selectedString = currentMusician.name;;
         
         //Get the person object from the array based on the item in the tableview we clicked on
         //PersonCustomClass *currentPerson = [personArray objectAtIndex:indexPath.row];
@@ -83,7 +104,7 @@
         //NSString *selectedString = currentPerson.name;
         //NSString *descriptionString = currentPerson.description;
         
-        detailViewController.nameString = selectedString;
+        //detailViewController.nameString = selectedString;
         //detailViewController.secondaryString = descriptionString;
         
         

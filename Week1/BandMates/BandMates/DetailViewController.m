@@ -32,10 +32,10 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     
-    nameLabel.text = self.nameString;
+    //nameLabel.text = self.nameString;
     //secondaryLabel.text = self.secondaryString;
     
-    //titleLabel.text = self.currentPerson.name;
+    nameLabel.text = self.currentMusician.name;
     //secondaryLabel.text = self.currentPerson.description;
     
     

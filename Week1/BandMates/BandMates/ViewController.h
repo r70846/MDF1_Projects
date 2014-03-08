@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController  <UITableViewDataSource, UITableViewDelegate>
 {
     IBOutlet UITableView *mainTableView;
-    NSArray *wordArray;
+    NSArray *musicianArray;
     
 }
 

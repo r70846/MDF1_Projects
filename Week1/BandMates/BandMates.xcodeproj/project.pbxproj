@@ -22,6 +22,7 @@
 		6048262E18CA80820011D92A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6048262C18CA80820011D92A /* InfoPlist.strings */; };
 		6048263018CA80820011D92A /* BandMatesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048262F18CA80820011D92A /* BandMatesTests.m */; };
 		6048263B18CA8EDA0011D92A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048263A18CA8EDA0011D92A /* DetailViewController.m */; };
+		6048263E18CA99400011D92A /* BandMateClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6048263D18CA99400011D92A /* BandMateClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		6048262F18CA80820011D92A /* BandMatesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BandMatesTests.m; sourceTree = "<group>"; };
 		6048263918CA8EDA0011D92A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		6048263A18CA8EDA0011D92A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6048263C18CA99400011D92A /* BandMateClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandMateClass.h; sourceTree = "<group>"; };
+		6048263D18CA99400011D92A /* BandMateClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandMateClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				6048263A18CA8EDA0011D92A /* DetailViewController.m */,
 				6048261918CA80810011D92A /* ViewController.h */,
 				6048261A18CA80810011D92A /* ViewController.m */,
+				6048263C18CA99400011D92A /* BandMateClass.h */,
+				6048263D18CA99400011D92A /* BandMateClass.m */,
 				6048261C18CA80810011D92A /* Images.xcassets */,
 				6048260B18CA80810011D92A /* Supporting Files */,
 			);
@@ -258,6 +263,7 @@
 				6048261518CA80810011D92A /* AppDelegate.m in Sources */,
 				6048261118CA80810011D92A /* main.m in Sources */,
 				6048263B18CA8EDA0011D92A /* DetailViewController.m in Sources */,
+				6048263E18CA99400011D92A /* BandMateClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

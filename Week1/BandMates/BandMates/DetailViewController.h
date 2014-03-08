@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BandMateClass.h"
+
 
 @interface DetailViewController : UIViewController
 {
     IBOutlet UILabel *nameLabel;
 }
 
-@property (nonatomic, strong)NSString *nameString;
+@property (nonatomic, strong)BandMateClass *currentMusician;
 
 
 @end
