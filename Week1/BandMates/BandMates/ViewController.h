@@ -11,9 +11,10 @@
 @interface ViewController : UIViewController  <UITableViewDataSource, UITableViewDelegate>
 {
     IBOutlet UITableView *mainTableView;
-    NSArray *musicianArray;
+    NSMutableArray *musicianArray;
     
 }
 
+- (void)loadData;
 
 @end
