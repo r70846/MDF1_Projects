@@ -13,6 +13,10 @@
 @interface DetailViewController : UIViewController
 {
     IBOutlet UILabel *nameLabel;
+    IBOutlet UILabel *instLabel;
+    IBOutlet UILabel *phoneLabel;
+    IBOutlet UILabel *emailLabel;
+    IBOutlet UILabel *notesLabel;
     IBOutlet UIImageView *detailImage;
 }
 

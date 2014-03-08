@@ -121,7 +121,7 @@
     }
 }
 
-
+//Function to load hard coded data into array of BandMate objects
 - (void)loadData
 {
     //Built mutable array to hold musicians (BandMate objects)
@@ -260,7 +260,7 @@
     musician15.phone = @"407-252-6123";
     musician15.email = @"smitty@gmail.com";
     musician15.notes = @"Nice guy";
-    musician15.instImage  = [UIImage imageNamed:@"bas80b.gif"];
+    musician15.instImage  = [UIImage imageNamed:@"bass80b.gif"];
 	[musicianArray addObject:musician15];
     
     BandMateClass *musician16 = [[BandMateClass alloc] init];

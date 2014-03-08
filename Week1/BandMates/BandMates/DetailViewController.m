@@ -36,6 +36,10 @@
     //secondaryLabel.text = self.secondaryString;
     
     nameLabel.text = self.currentMusician.name;
+    instLabel.text = self.currentMusician.instrument;
+    phoneLabel.text = self.currentMusician.phone;
+    emailLabel.text = self.currentMusician.email;
+    notesLabel.text = self.currentMusician.notes;
     detailImage.image = self.currentMusician.instImage;
     
     //secondaryLabel.text = self.currentPerson.description;
