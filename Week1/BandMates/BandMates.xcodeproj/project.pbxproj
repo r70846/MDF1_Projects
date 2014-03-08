@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60246D6718CABEEF00D4000B /* bass80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6118CABEEF00D4000B /* bass80b.gif */; };
+		60246D6818CABEEF00D4000B /* drums80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6218CABEEF00D4000B /* drums80b.gif */; };
+		60246D6918CABEEF00D4000B /* guitar80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6318CABEEF00D4000B /* guitar80b.gif */; };
+		60246D6A18CABEEF00D4000B /* keys80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6418CABEEF00D4000B /* keys80b.gif */; };
+		60246D6B18CABEEF00D4000B /* other80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6518CABEEF00D4000B /* other80b.gif */; };
+		60246D6C18CABEEF00D4000B /* vocals80b.gif in Resources */ = {isa = PBXBuildFile; fileRef = 60246D6618CABEEF00D4000B /* vocals80b.gif */; };
 		6048260518CA80810011D92A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6048260418CA80810011D92A /* Foundation.framework */; };
 		6048260718CA80810011D92A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6048260618CA80810011D92A /* CoreGraphics.framework */; };
 		6048260918CA80810011D92A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6048260818CA80810011D92A /* UIKit.framework */; };
@@ -36,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60246D6118CABEEF00D4000B /* bass80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bass80b.gif; path = img/bass80b.gif; sourceTree = "<group>"; };
+		60246D6218CABEEF00D4000B /* drums80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = drums80b.gif; path = img/drums80b.gif; sourceTree = "<group>"; };
+		60246D6318CABEEF00D4000B /* guitar80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = guitar80b.gif; path = img/guitar80b.gif; sourceTree = "<group>"; };
+		60246D6418CABEEF00D4000B /* keys80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = keys80b.gif; path = img/keys80b.gif; sourceTree = "<group>"; };
+		60246D6518CABEEF00D4000B /* other80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = other80b.gif; path = img/other80b.gif; sourceTree = "<group>"; };
+		60246D6618CABEEF00D4000B /* vocals80b.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = vocals80b.gif; path = img/vocals80b.gif; sourceTree = "<group>"; };
 		6048260118CA80810011D92A /* BandMates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandMates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6048260418CA80810011D92A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6048260618CA80810011D92A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +130,12 @@
 		6048260A18CA80810011D92A /* BandMates */ = {
 			isa = PBXGroup;
 			children = (
+				60246D6118CABEEF00D4000B /* bass80b.gif */,
+				60246D6218CABEEF00D4000B /* drums80b.gif */,
+				60246D6318CABEEF00D4000B /* guitar80b.gif */,
+				60246D6418CABEEF00D4000B /* keys80b.gif */,
+				60246D6518CABEEF00D4000B /* other80b.gif */,
+				60246D6618CABEEF00D4000B /* vocals80b.gif */,
 				6048261318CA80810011D92A /* AppDelegate.h */,
 				6048261418CA80810011D92A /* AppDelegate.m */,
 				6048261618CA80810011D92A /* Main.storyboard */,
@@ -238,8 +256,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60246D6818CABEEF00D4000B /* drums80b.gif in Resources */,
+				60246D6C18CABEEF00D4000B /* vocals80b.gif in Resources */,
+				60246D6918CABEEF00D4000B /* guitar80b.gif in Resources */,
 				6048261D18CA80810011D92A /* Images.xcassets in Resources */,
 				6048260F18CA80810011D92A /* InfoPlist.strings in Resources */,
+				60246D6B18CABEEF00D4000B /* other80b.gif in Resources */,
+				60246D6718CABEEF00D4000B /* bass80b.gif in Resources */,
+				60246D6A18CABEEF00D4000B /* keys80b.gif in Resources */,
 				6048261818CA80810011D92A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -36,6 +36,8 @@
     //secondaryLabel.text = self.secondaryString;
     
     nameLabel.text = self.currentMusician.name;
+    detailImage.image = self.currentMusician.instImage;
+    
     //secondaryLabel.text = self.currentPerson.description;
     
     

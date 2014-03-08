@@ -9,6 +9,6 @@
 #import "BandMateClass.h"
 
 @implementation BandMateClass
-@synthesize name, instrument, phone;
+@synthesize name, instrument, phone, instImage;
 
 @end

@@ -13,6 +13,7 @@
 @interface DetailViewController : UIViewController
 {
     IBOutlet UILabel *nameLabel;
+    IBOutlet UIImageView *detailImage;
 }
 
 @property (nonatomic, strong)BandMateClass *currentMusician;
