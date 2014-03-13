@@ -22,6 +22,7 @@
 		60B0DD0718D2490500532012 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B0DCE618D2490500532012 /* UIKit.framework */; };
 		60B0DD0F18D2490500532012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60B0DD0D18D2490500532012 /* InfoPlist.strings */; };
 		60B0DD1118D2490500532012 /* ViolinJazzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0DD1018D2490500532012 /* ViolinJazzTests.m */; };
+		60B0DD1C18D256B800532012 /* BookReviewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0DD1B18D256B800532012 /* BookReviewClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		60B0DD0C18D2490500532012 /* ViolinJazzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViolinJazzTests-Info.plist"; sourceTree = "<group>"; };
 		60B0DD0E18D2490500532012 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60B0DD1018D2490500532012 /* ViolinJazzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViolinJazzTests.m; sourceTree = "<group>"; };
+		60B0DD1A18D256B800532012 /* BookReviewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookReviewClass.h; sourceTree = "<group>"; };
+		60B0DD1B18D256B800532012 /* BookReviewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookReviewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				60B0DCF818D2490500532012 /* FirstViewController.m */,
 				60B0DCFA18D2490500532012 /* SecondViewController.h */,
 				60B0DCFB18D2490500532012 /* SecondViewController.m */,
+				60B0DD1A18D256B800532012 /* BookReviewClass.h */,
+				60B0DD1B18D256B800532012 /* BookReviewClass.m */,
 				60B0DCFD18D2490500532012 /* Images.xcassets */,
 				60B0DCE918D2490500532012 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B0DCFC18D2490500532012 /* SecondViewController.m in Sources */,
+				60B0DD1C18D256B800532012 /* BookReviewClass.m in Sources */,
 				60B0DCF318D2490500532012 /* AppDelegate.m in Sources */,
 				60B0DCF918D2490500532012 /* FirstViewController.m in Sources */,
 				60B0DCEF18D2490500532012 /* main.m in Sources */,

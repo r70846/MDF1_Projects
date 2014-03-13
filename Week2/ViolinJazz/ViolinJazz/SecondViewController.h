@@ -11,9 +11,12 @@
 @interface SecondViewController : UIViewController  <UITableViewDataSource, UITableViewDelegate>
 {
     
-    NSMutableArray *wordArray;
-    
-    
+    NSMutableArray *bookReviewArray;
     
 }
+
+- (void)loadBookReviews;
+
+
+
 @end
