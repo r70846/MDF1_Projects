@@ -28,14 +28,21 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return 5;
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
 
-    return nil;
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BasicCell"];
+    if(cell != nil)
+    {
+        cell.textLabel.text = @"Hello";
+        
+    }
+    return cell;
 }
 
 @end
