@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController  <UITableViewDataSource, UITableViewDelegate>
-
+{
+    
+    NSMutableArray *wordArray;
+    
+    
+    
+}
 @end

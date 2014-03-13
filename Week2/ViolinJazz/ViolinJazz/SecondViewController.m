@@ -16,6 +16,12 @@
 
 - (void)viewDidLoad
 {
+    
+    wordArray = [[NSMutableArray alloc] initWithObjects:@"one",@"two",@"three",@"four",@"five", nil];
+    
+    
+    
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -39,7 +45,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BasicCell"];
     if(cell != nil)
     {
-        cell.textLabel.text = @"Hello";
+        cell.textLabel.text = [wordArray objectAtIndex:indexPath.row];
+        cell.detailTextLabel.text = @"Subtitle";
         
     }
     return cell;
