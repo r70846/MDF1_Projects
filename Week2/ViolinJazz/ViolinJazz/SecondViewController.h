@@ -10,7 +10,7 @@
 
 @interface SecondViewController : UIViewController  <UITableViewDataSource, UITableViewDelegate>
 {
-    
+    IBOutlet UITableView *mainTableView;
     NSMutableArray *bookReviewArray;
     
 }

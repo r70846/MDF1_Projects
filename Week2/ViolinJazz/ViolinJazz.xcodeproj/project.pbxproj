@@ -23,6 +23,7 @@
 		60B0DD0F18D2490500532012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60B0DD0D18D2490500532012 /* InfoPlist.strings */; };
 		60B0DD1118D2490500532012 /* ViolinJazzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0DD1018D2490500532012 /* ViolinJazzTests.m */; };
 		60B0DD1C18D256B800532012 /* BookReviewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0DD1B18D256B800532012 /* BookReviewClass.m */; };
+		60B0DD1F18D2656100532012 /* BookReviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0DD1E18D2656100532012 /* BookReviewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		60B0DD1018D2490500532012 /* ViolinJazzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViolinJazzTests.m; sourceTree = "<group>"; };
 		60B0DD1A18D256B800532012 /* BookReviewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookReviewClass.h; sourceTree = "<group>"; };
 		60B0DD1B18D256B800532012 /* BookReviewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookReviewClass.m; sourceTree = "<group>"; };
+		60B0DD1D18D2656100532012 /* BookReviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookReviewController.h; sourceTree = "<group>"; };
+		60B0DD1E18D2656100532012 /* BookReviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookReviewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				60B0DCF118D2490500532012 /* AppDelegate.h */,
 				60B0DCF218D2490500532012 /* AppDelegate.m */,
 				60B0DCF418D2490500532012 /* Main.storyboard */,
+				60B0DD1D18D2656100532012 /* BookReviewController.h */,
+				60B0DD1E18D2656100532012 /* BookReviewController.m */,
 				60B0DCF718D2490500532012 /* FirstViewController.h */,
 				60B0DCF818D2490500532012 /* FirstViewController.m */,
 				60B0DCFA18D2490500532012 /* SecondViewController.h */,
@@ -261,6 +266,7 @@
 			files = (
 				60B0DCFC18D2490500532012 /* SecondViewController.m in Sources */,
 				60B0DD1C18D256B800532012 /* BookReviewClass.m in Sources */,
+				60B0DD1F18D2656100532012 /* BookReviewController.m in Sources */,
 				60B0DCF318D2490500532012 /* AppDelegate.m in Sources */,
 				60B0DCF918D2490500532012 /* FirstViewController.m in Sources */,
 				60B0DCEF18D2490500532012 /* main.m in Sources */,
