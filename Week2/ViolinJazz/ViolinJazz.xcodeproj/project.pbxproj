@@ -26,6 +26,7 @@
 		60B0DD1F18D2656100532012 /* BookReviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0DD1E18D2656100532012 /* BookReviewController.m */; };
 		60B0DD2818D27EB000532012 /* FeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0DD2718D27EB000532012 /* FeatureController.m */; };
 		60B0DD2B18D27EEF00532012 /* fiddlerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B0DD2A18D27EEF00532012 /* fiddlerClass.m */; };
+		60B0DD2D18D28C1400532012 /* fiddle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60B0DD2C18D28C1400532012 /* fiddle.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		60B0DD2718D27EB000532012 /* FeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeatureController.m; sourceTree = "<group>"; };
 		60B0DD2918D27EEF00532012 /* fiddlerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fiddlerClass.h; sourceTree = "<group>"; };
 		60B0DD2A18D27EEF00532012 /* fiddlerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fiddlerClass.m; sourceTree = "<group>"; };
+		60B0DD2C18D28C1400532012 /* fiddle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fiddle.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				60B0DCF118D2490500532012 /* AppDelegate.h */,
 				60B0DCF218D2490500532012 /* AppDelegate.m */,
 				60B0DCF418D2490500532012 /* Main.storyboard */,
+				60B0DD2C18D28C1400532012 /* fiddle.jpg */,
 				60B0DD2918D27EEF00532012 /* fiddlerClass.h */,
 				60B0DD2A18D27EEF00532012 /* fiddlerClass.m */,
 				60B0DD2618D27EB000532012 /* FeatureController.h */,
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B0DCFE18D2490500532012 /* Images.xcassets in Resources */,
+				60B0DD2D18D28C1400532012 /* fiddle.jpg in Resources */,
 				60B0DCED18D2490500532012 /* InfoPlist.strings in Resources */,
 				60B0DCF618D2490500532012 /* Main.storyboard in Resources */,
 			);
