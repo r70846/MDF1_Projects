@@ -171,7 +171,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="Z7h-1E-pvt"/>
+                    <tabBarItem key="tabBarItem" title="Reviews" image="first" id="Z7h-1E-pvt"/>
                     <connections>
                         <outlet property="mainTableView" destination="YhX-6o-XnJ" id="Ay7-nl-UUM"/>
                     </connections>
@@ -230,7 +230,7 @@
             </objects>
             <point key="canvasLocation" x="1179" y="574"/>
         </scene>
-        <!--Feature Controller - Item-->
+        <!--Feature Controller - Featured-->
         <scene sceneID="Hsb-B4-NEM">
             <objects>
                 <viewController id="AnB-ap-Wv8" customClass="FeatureController" sceneMemberID="viewController">
@@ -271,7 +271,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hQb-fV-YBY"/>
+                    <tabBarItem key="tabBarItem" title="Featured" image="first" id="hQb-fV-YBY"/>
                     <connections>
                         <outlet property="datesLabel" destination="6WF-ca-j7i" id="VI6-bQ-zpS"/>
                         <outlet property="nameLabel" destination="jj5-We-hHk" id="HuA-C2-Lvv"/>
@@ -302,11 +302,11 @@
             </objects>
             <point key="canvasLocation" x="132" y="180"/>
         </scene>
-        <!--Navigation Controller - First-->
+        <!--Navigation Controller - Home-->
         <scene sceneID="hfL-hV-nTu">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Idq-5i-dak" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="u1e-5L-l1D"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="first" id="u1e-5L-l1D"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OPC-oH-BcQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -324,7 +324,6 @@
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
