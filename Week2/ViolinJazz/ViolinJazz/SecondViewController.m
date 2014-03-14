@@ -5,6 +5,14 @@
 //  Created by Russell Gaspard on 3/13/14.
 //  Copyright (c) 2014 Russell Gaspard. All rights reserved.
 //
+/*
+ 
+ Russ Gaspard
+ Project 2
+ Mobile Development
+ MDF1 1403
+ 
+ */
 
 #import "SecondViewController.h"
 #import "BookReviewController.h"
@@ -33,12 +41,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+//Cell count is based on my array length - number of book reviews
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [bookReviewArray count];
 }
 
-
+//Table function to populate cells based on my object properties
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     BookReviewClass *currentBook = [bookReviewArray objectAtIndex:indexPath.row];
@@ -53,7 +62,9 @@
     return cell;
 }
 
-//
+
+
+//Function to pass chosen object to detail view on user choice
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     BookReviewController *bookReviewController = segue.destinationViewController;
@@ -77,7 +88,7 @@
      
 }
 
-
+//Function to hard code book review objects into array
 - (void)loadBookReviews
 {
     bookReviewArray = [[NSMutableArray alloc] init];

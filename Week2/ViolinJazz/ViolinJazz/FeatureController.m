@@ -5,6 +5,15 @@
 //  Created by Russell Gaspard on 3/13/14.
 //  Copyright (c) 2014 Russell Gaspard. All rights reserved.
 //
+/*
+ 
+ Russ Gaspard
+ Project 2
+ Mobile Development
+ MDF1 1403
+ 
+ */
+
 
 #import "FeatureController.h"
 
@@ -30,11 +39,6 @@
     [self loadFiddlers];
     
     self.featuredFiddler = fiddlerArray[0];
-
-    
-    
-    
-    
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
@@ -46,12 +50,6 @@
     nameLabel.text = self.featuredFiddler.name;
     datesLabel.text = self.featuredFiddler.dates;
     notesLabel.text = self.featuredFiddler.notes;
-    
-    
-    //IBOutlet UILabel *publicationLabel;
-    //IBOutlet UILabel *reviewerLabel;
-    //IBOutlet UILabel *urlLabel;
-    
     
     [super viewWillAppear:(BOOL)animated];
 }
