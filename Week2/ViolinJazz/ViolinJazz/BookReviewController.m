@@ -37,10 +37,10 @@
     authorLabel.text = self.currentBook.author;
     
     
-    //IBOutlet UILabel *publicationLabel;
-    //IBOutlet UILabel *reviewerLabel;
-    //IBOutlet UILabel *urlLabel;
-
+    sourceLabel.text = self.currentBook.source;
+    reviewerLabel.text = self.currentBook.reviewer;
+    urlLabel.text = self.currentBook.reviewer;
+    exerptLabel.text = self.currentBook.exerpt;
     
     [super viewWillAppear:(BOOL)animated];
 }
@@ -51,6 +51,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//Function to allow return from segue
+-(IBAction)done:(UIStoryboardSegue*)segue
+{
+    
+    
 }
 
 @end

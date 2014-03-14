@@ -13,9 +13,10 @@
     
 }
 
-@property (nonatomic, strong)NSString *publication;
+@property (nonatomic, strong)NSString *source;
 @property (nonatomic, strong)NSString *reviewer;
 @property (nonatomic, strong)NSString *url;
+@property (nonatomic, strong)NSString *exerpt;
 
 @property (nonatomic, strong)NSString *title;
 @property (nonatomic, strong)NSString *subTitle;

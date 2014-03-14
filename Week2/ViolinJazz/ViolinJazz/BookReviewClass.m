@@ -9,6 +9,6 @@
 #import "BookReviewClass.h"
 
 @implementation BookReviewClass
-@synthesize publication, reviewer, url, title, subTitle, author;
+@synthesize source, reviewer, url, title, subTitle, author, exerpt;
 
 @end

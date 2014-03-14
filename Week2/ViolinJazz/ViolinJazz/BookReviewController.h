@@ -14,14 +14,14 @@
     
 
     
-    //IBOutlet UILabel *publicationLabel;
-    //IBOutlet UILabel *reviewerLabel;
-    //IBOutlet UILabel *urlLabel;
+    IBOutlet UILabel *sourceLabel;
+    IBOutlet UILabel *reviewerLabel;
+    IBOutlet UILabel *urlLabel;
     
     IBOutlet UILabel *titleLabel;
     IBOutlet UILabel *subTitleLabel;
     IBOutlet UILabel *authorLabel;
-    
+    IBOutlet UILabel *exerptLabel;
 }
 
 @property (nonatomic, strong)BookReviewClass *currentBook;
