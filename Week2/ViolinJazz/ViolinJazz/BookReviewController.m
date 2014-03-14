@@ -39,7 +39,7 @@
     
     sourceLabel.text = self.currentBook.source;
     reviewerLabel.text = self.currentBook.reviewer;
-    urlLabel.text = self.currentBook.reviewer;
+    urlLabel.text = self.currentBook.url;
     exerptLabel.text = self.currentBook.exerpt;
     
     [super viewWillAppear:(BOOL)animated];
@@ -53,11 +53,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-//Function to allow return from segue
--(IBAction)done:(UIStoryboardSegue*)segue
-{
-    
-    
-}
+
 
 @end

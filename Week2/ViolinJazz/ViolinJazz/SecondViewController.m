@@ -71,6 +71,13 @@
 }
 
 
+//Function to allow return from segue
+-(IBAction)done:(UIStoryboardSegue*)segue
+{
+     
+}
+
+
 - (void)loadBookReviews
 {
     bookReviewArray = [[NSMutableArray alloc] init];

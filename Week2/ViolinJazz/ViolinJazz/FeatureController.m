@@ -92,4 +92,13 @@
     fiddler4.notes = @"A contemporary of Stephane Grappelli, Smith is one of the best Swing Era violinists and like most jazz musicians of the day was most inspired by Luis Armstrong.";
     [fiddlerArray addObject:fiddler4];
 }
+
+
+//Function to allow return from segue
+-(IBAction)done:(UIStoryboardSegue*)segue
+{
+    
+    
+}
+
 @end
