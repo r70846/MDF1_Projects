@@ -22,6 +22,7 @@
 		60161D2418DB99C600C1E971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60161D2218DB99C600C1E971 /* InfoPlist.strings */; };
 		60161D2618DB99C600C1E971 /* CraftBeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D2518DB99C600C1E971 /* CraftBeerTests.m */; };
 		60161D3118DBA26F00C1E971 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D3018DBA26F00C1E971 /* DetailViewController.m */; };
+		60161D3418DBA88700C1E971 /* CraftBeerPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D3318DBA88700C1E971 /* CraftBeerPlace.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		60161D2518DB99C600C1E971 /* CraftBeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftBeerTests.m; sourceTree = "<group>"; };
 		60161D2F18DBA26F00C1E971 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		60161D3018DBA26F00C1E971 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		60161D3218DBA88700C1E971 /* CraftBeerPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CraftBeerPlace.h; sourceTree = "<group>"; };
+		60161D3318DBA88700C1E971 /* CraftBeerPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CraftBeerPlace.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				60161D1018DB99C600C1E971 /* ViewController.m */,
 				60161D1218DB99C600C1E971 /* Images.xcassets */,
 				60161D0118DB99C600C1E971 /* Supporting Files */,
+				60161D3218DBA88700C1E971 /* CraftBeerPlace.h */,
+				60161D3318DBA88700C1E971 /* CraftBeerPlace.m */,
 			);
 			path = CraftBeer;
 			sourceTree = "<group>";
@@ -254,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60161D3418DBA88700C1E971 /* CraftBeerPlace.m in Sources */,
 				60161D1118DB99C600C1E971 /* ViewController.m in Sources */,
 				60161D0B18DB99C600C1E971 /* AppDelegate.m in Sources */,
 				60161D0718DB99C600C1E971 /* main.m in Sources */,
