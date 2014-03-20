@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "DetailViewController.h"
 @interface ViewController ()
 
 @end
@@ -52,21 +52,6 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    /*
-    
-    BookReviewClass *currentBook = [bookReviewArray objectAtIndex:indexPath.row];
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BasicCell"];
-    if(cell != nil)
-    {
-        cell.textLabel.text = currentBook.title;
-        cell.detailTextLabel.text = currentBook.subTitle;
-        
-    }
-    return cell;
-     
-     */
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BasicCell"];
     
     if(cell != nil)
@@ -77,4 +62,25 @@
     }
     return cell;
 }
+
+
+//Function to pass chosen object to detail view on user choice
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+     //CraftBeerPlaceSelection
+    
+    DetailViewController *detailViewController = segue.destinationViewController;
+    if(detailViewController != nil)
+    {
+        
+        //Cast the "sender" as a TableView Cell
+        UITableViewCell *cell = (UITableViewCell*)sender;
+        NSIndexPath *indexPath = [mainTableView indexPathForCell:cell];
+        
+        detailViewController.businessName = barArray[indexPath.row];
+    }
+}
+
+
+
 @end

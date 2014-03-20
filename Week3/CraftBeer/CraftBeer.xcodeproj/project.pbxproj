@@ -21,6 +21,7 @@
 		60161D1C18DB99C600C1E971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60161CFE18DB99C600C1E971 /* UIKit.framework */; };
 		60161D2418DB99C600C1E971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60161D2218DB99C600C1E971 /* InfoPlist.strings */; };
 		60161D2618DB99C600C1E971 /* CraftBeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D2518DB99C600C1E971 /* CraftBeerTests.m */; };
+		60161D3118DBA26F00C1E971 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D3018DBA26F00C1E971 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		60161D2118DB99C600C1E971 /* CraftBeerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CraftBeerTests-Info.plist"; sourceTree = "<group>"; };
 		60161D2318DB99C600C1E971 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60161D2518DB99C600C1E971 /* CraftBeerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraftBeerTests.m; sourceTree = "<group>"; };
+		60161D2F18DBA26F00C1E971 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		60161D3018DBA26F00C1E971 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				60161D0918DB99C600C1E971 /* AppDelegate.h */,
 				60161D0A18DB99C600C1E971 /* AppDelegate.m */,
 				60161D0C18DB99C600C1E971 /* Main.storyboard */,
+				60161D2F18DBA26F00C1E971 /* DetailViewController.h */,
+				60161D3018DBA26F00C1E971 /* DetailViewController.m */,
 				60161D0F18DB99C600C1E971 /* ViewController.h */,
 				60161D1018DB99C600C1E971 /* ViewController.m */,
 				60161D1218DB99C600C1E971 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				60161D1118DB99C600C1E971 /* ViewController.m in Sources */,
 				60161D0B18DB99C600C1E971 /* AppDelegate.m in Sources */,
 				60161D0718DB99C600C1E971 /* main.m in Sources */,
+				60161D3118DBA26F00C1E971 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

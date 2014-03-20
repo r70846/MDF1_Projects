@@ -11,6 +11,11 @@
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 {
     
+    
+    //Outlet for my table
+    IBOutlet UITableView *mainTableView;
+    
+    
     NSMutableArray *barArray;
     
     
