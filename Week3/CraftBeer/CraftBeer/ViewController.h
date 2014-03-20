@@ -22,6 +22,6 @@
 }
 
 
-
+-(void)loadBeerPlaces;
 
 @end
