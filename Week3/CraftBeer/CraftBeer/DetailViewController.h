@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 #import "CraftBeerPlace.h"
 
 @interface DetailViewController : UIViewController
@@ -15,6 +16,9 @@
     //Create outlets for user interface
     IBOutlet UILabel *nameLabel;
     
+    
+    //Create outlet for user mapview
+    IBOutlet MKMapView *mainMapView;
     
 }
 

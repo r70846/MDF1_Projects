@@ -23,6 +23,7 @@
 		60161D2618DB99C600C1E971 /* CraftBeerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D2518DB99C600C1E971 /* CraftBeerTests.m */; };
 		60161D3118DBA26F00C1E971 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D3018DBA26F00C1E971 /* DetailViewController.m */; };
 		60161D3418DBA88700C1E971 /* CraftBeerPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D3318DBA88700C1E971 /* CraftBeerPlace.m */; };
+		60161D3618DBB38E00C1E971 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60161D3518DBB38E00C1E971 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		60161D3018DBA26F00C1E971 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		60161D3218DBA88700C1E971 /* CraftBeerPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CraftBeerPlace.h; sourceTree = "<group>"; };
 		60161D3318DBA88700C1E971 /* CraftBeerPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CraftBeerPlace.m; sourceTree = "<group>"; };
+		60161D3518DBB38E00C1E971 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60161D3618DBB38E00C1E971 /* MapKit.framework in Frameworks */,
 				60161CFD18DB99C600C1E971 /* CoreGraphics.framework in Frameworks */,
 				60161CFF18DB99C600C1E971 /* UIKit.framework in Frameworks */,
 				60161CFB18DB99C600C1E971 /* Foundation.framework in Frameworks */,
@@ -107,6 +110,7 @@
 		60161CF918DB99C600C1E971 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60161D3518DBB38E00C1E971 /* MapKit.framework */,
 				60161CFA18DB99C600C1E971 /* Foundation.framework */,
 				60161CFC18DB99C600C1E971 /* CoreGraphics.framework */,
 				60161CFE18DB99C600C1E971 /* UIKit.framework */,
