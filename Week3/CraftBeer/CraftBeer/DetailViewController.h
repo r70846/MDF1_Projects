@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CraftBeerPlace.h"
 
 @interface DetailViewController : UIViewController
 {
@@ -17,8 +18,7 @@
     
 }
 
-@property (nonatomic, strong)NSString *businessName;
-
+@property (nonatomic, strong)CraftBeerPlace *currentPlace;
 
 
 

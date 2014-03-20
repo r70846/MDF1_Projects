@@ -43,7 +43,7 @@
     exerptLabel.text = self.currentBook.exerpt;
      */
     
-    nameLabel.text = self.businessName;
+    nameLabel.text = self.currentPlace.businessName;
     
     [super viewWillAppear:(BOOL)animated];
 }

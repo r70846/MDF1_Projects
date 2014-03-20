@@ -120,7 +120,7 @@
         NSIndexPath *indexPath = [mainTableView indexPathForCell:cell];
 
         CraftBeerPlace *currentPlace = [barArray objectAtIndex:indexPath.row];
-        detailViewController.businessName = currentPlace.businessName;
+        detailViewController.currentPlace = currentPlace;
     }
 }
 
