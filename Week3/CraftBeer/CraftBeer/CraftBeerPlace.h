@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
 
 @interface CraftBeerPlace : NSObject
 {
@@ -14,7 +15,7 @@
 }
 
 @property (nonatomic, strong)NSString *businessName;
-@property (nonatomic, strong)NSString *coordinates;
+@property CLLocationCoordinate2D coordinates;
 
 
 @end
