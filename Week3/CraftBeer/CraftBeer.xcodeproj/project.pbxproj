@@ -24,6 +24,7 @@
 		60161D3118DBA26F00C1E971 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D3018DBA26F00C1E971 /* DetailViewController.m */; };
 		60161D3418DBA88700C1E971 /* CraftBeerPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 60161D3318DBA88700C1E971 /* CraftBeerPlace.m */; };
 		60161D3618DBB38E00C1E971 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60161D3518DBB38E00C1E971 /* MapKit.framework */; };
+		606138A018DBCD6B00655FB1 /* AllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6061389F18DBCD6B00655FB1 /* AllViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		60161D3218DBA88700C1E971 /* CraftBeerPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CraftBeerPlace.h; sourceTree = "<group>"; };
 		60161D3318DBA88700C1E971 /* CraftBeerPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CraftBeerPlace.m; sourceTree = "<group>"; };
 		60161D3518DBB38E00C1E971 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6061389E18DBCD6B00655FB1 /* AllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllViewController.h; sourceTree = "<group>"; };
+		6061389F18DBCD6B00655FB1 /* AllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				60161D0918DB99C600C1E971 /* AppDelegate.h */,
 				60161D0A18DB99C600C1E971 /* AppDelegate.m */,
 				60161D0C18DB99C600C1E971 /* Main.storyboard */,
+				6061389E18DBCD6B00655FB1 /* AllViewController.h */,
+				6061389F18DBCD6B00655FB1 /* AllViewController.m */,
 				60161D2F18DBA26F00C1E971 /* DetailViewController.h */,
 				60161D3018DBA26F00C1E971 /* DetailViewController.m */,
 				60161D0F18DB99C600C1E971 /* ViewController.h */,
@@ -267,6 +272,7 @@
 				60161D1118DB99C600C1E971 /* ViewController.m in Sources */,
 				60161D0B18DB99C600C1E971 /* AppDelegate.m in Sources */,
 				60161D0718DB99C600C1E971 /* main.m in Sources */,
+				606138A018DBCD6B00655FB1 /* AllViewController.m in Sources */,
 				60161D3118DBA26F00C1E971 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +482,7 @@
 				60161D2B18DB99C600C1E971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60161D2C18DB99C600C1E971 /* Build configuration list for PBXNativeTarget "CraftBeerTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +491,7 @@
 				60161D2E18DB99C600C1E971 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
