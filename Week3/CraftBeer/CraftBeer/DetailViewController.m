@@ -32,17 +32,28 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     
-    //Set Each Label text to appropriate propertiy of chosen book review object
-    /*
-    titleLabel.text = self.currentBook.title;
-    subTitleLabel.text = self.currentBook.subTitle;
-    authorLabel.text = self.currentBook.author;
-    sourceLabel.text = self.currentBook.source;
-    reviewerLabel.text = self.currentBook.reviewer;
-    urlLabel.text = self.currentBook.url;
-    exerptLabel.text = self.currentBook.exerpt;
-     */
+    //Where I want to focus
+    CLLocationCoordinate2D zoomLocation = CLLocationCoordinate2DMake(28.53f,-81.3f);
     
+    //Set the zoom level
+    MKCoordinateSpan zoomSpan;
+    zoomSpan.latitudeDelta = 2.5f;
+    zoomSpan.longitudeDelta = 2.5f;
+    
+    //Apply focus and zoom to the map
+    mainMapView.region = MKCoordinateRegionMake(zoomLocation, zoomSpan);
+    
+    //Assign coordinates to an annotation pin
+    MKPointAnnotation *point = [[MKPointAnnotation alloc ] init];
+    point.coordinate = CLLocationCoordinate2DMake(28.53f,-81.3f);
+    point.title = @"Full Sail";
+    point.subtitle = @"University";
+    
+    //Add my pin to the map
+    [mainMapView addAnnotation:point];
+    
+    
+    //Set the business label at the top of my view
     nameLabel.text = self.currentPlace.businessName;
     
     [super viewWillAppear:(BOOL)animated];
