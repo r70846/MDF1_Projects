@@ -28,10 +28,22 @@
                                 <rect key="frame" x="0.0" y="44" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Back" id="eSx-hi-zdG"/>
-                                    <barButtonItem tag="1" title="Stop" id="pMT-qc-Pw0"/>
+                                    <barButtonItem title="Back" id="eSx-hi-zdG">
+                                        <connections>
+                                            <action selector="onClick:" destination="CZ4-MO-1fc" id="18S-lh-Tue"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem tag="1" title="Stop" id="pMT-qc-Pw0">
+                                        <connections>
+                                            <action selector="onClick:" destination="CZ4-MO-1fc" id="WlP-Eh-N6U"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="JeA-WA-pBR"/>
-                                    <barButtonItem tag="2" title="Reload" id="1xf-SS-Mwo"/>
+                                    <barButtonItem tag="2" title="Reload" id="1xf-SS-Mwo">
+                                        <connections>
+                                            <action selector="onClick:" destination="CZ4-MO-1fc" id="GYb-sj-MMV"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
