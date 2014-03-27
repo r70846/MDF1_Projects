@@ -16,6 +16,26 @@
 
 - (void)viewDidLoad
 {
+    
+    //create url object
+    NSURL *url = [[NSURL alloc] initWithString:@"http://www.apple.com"];
+    if(url != nil)
+    {
+        //create request object based on URL
+        NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
+        if(request != nil)
+        {
+            
+            if(!myWebView.canGoBack)
+            {
+               // backButton.enabled = false;
+            }
+            
+            myWebView.scalesPageToFit = true;
+            
+            [myWebView loadRequest:request];
+        }
+    }
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
