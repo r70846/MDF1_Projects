@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController <UIWebViewDelegate>
 {
     IBOutlet UIWebView *myWebView;
-    
+    IBOutlet UIBarButtonItem *backButton;
 }
+
+-(IBAction)onClick:(id)sender;
+
+
 @end

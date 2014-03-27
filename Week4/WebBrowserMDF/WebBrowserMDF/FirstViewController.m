@@ -28,7 +28,7 @@
             
             if(!myWebView.canGoBack)
             {
-               // backButton.enabled = false;
+                backButton.enabled = false;
             }
             
             myWebView.scalesPageToFit = true;
@@ -39,6 +39,41 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
+
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    backButton.enabled = (myWebView.canGoBack);
+}
+
+
+-(IBAction)onClick:(id)sender
+{
+    UIBarButtonItem *item = (UIBarButtonItem*)sender;
+    if(item != nil)
+    {
+        //We clicked the back button
+        if(item.tag == 0)
+        {
+            if(myWebView.canGoBack)
+            {
+                [myWebView goBack];
+                
+                backButton.enabled = (myWebView.canGoBack);
+            }
+        }
+        //We clicked the stop button
+        else if (item.tag == 1)
+        {
+            if(myWebView.isLoading)
+            {
+                [myWebView stopLoading];
+            }
+        }
+        
+    }
+}
+
 
 - (void)didReceiveMemoryWarning
 {
