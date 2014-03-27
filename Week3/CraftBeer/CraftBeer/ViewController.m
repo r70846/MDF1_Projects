@@ -5,6 +5,15 @@
 //  Created by Russell Gaspard on 3/20/14.
 //  Copyright (c) 2014 Russell Gaspard. All rights reserved.
 //
+/*
+ 
+ Russ Gaspard
+ Project 3
+ Mobile Development
+ MDF1 1403
+ 
+ */
+
 
 #import "ViewController.h"
 #import "DetailViewController.h"
@@ -34,7 +43,7 @@
 
 
 
-//Cell count is based on my array length - number of book reviews
+//Cell count is based on my array length - number of craft beer bars
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return [barArray count];
