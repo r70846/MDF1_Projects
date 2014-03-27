@@ -70,7 +70,11 @@
                 [myWebView stopLoading];
             }
         }
-        
+        //We clicked the reload button
+        else if (item.tag == 2)
+        {
+                [myWebView reload];
+        }
     }
 }
 
