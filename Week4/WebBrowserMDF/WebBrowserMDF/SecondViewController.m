@@ -66,7 +66,11 @@
         }
         
         
-        NSLog(@"%@", requestString);
+        //NSLog(@"%@", requestString);
+        
+        myTextView.text = requestString;
+        
+        
     }
 }
 

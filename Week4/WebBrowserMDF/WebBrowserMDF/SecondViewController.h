@@ -10,10 +10,15 @@
 
 @interface SecondViewController : UIViewController <NSURLConnectionDataDelegate>
 {
+    
+    
+    IBOutlet UITextView *myTextView;
+    
+    
+    
     NSURLRequest *request;
     NSURL *url;
     NSURLConnection *connection;
-    
     NSMutableData *requestData;
 }
 @end
