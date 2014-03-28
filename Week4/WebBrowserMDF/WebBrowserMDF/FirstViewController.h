@@ -12,6 +12,9 @@
 {
     IBOutlet UIWebView *myWebView;
     IBOutlet UIBarButtonItem *backButton;
+    IBOutlet UIBarButtonItem *stopButton;
+    
+    
 }
 
 -(IBAction)onClick:(id)sender;

@@ -33,7 +33,7 @@
                                             <action selector="onClick:" destination="CZ4-MO-1fc" id="18S-lh-Tue"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem tag="1" title="Stop" id="pMT-qc-Pw0">
+                                    <barButtonItem tag="1" enabled="NO" title="Stop" id="pMT-qc-Pw0">
                                         <connections>
                                             <action selector="onClick:" destination="CZ4-MO-1fc" id="WlP-Eh-N6U"/>
                                         </connections>
@@ -53,6 +53,7 @@
                     <connections>
                         <outlet property="backButton" destination="eSx-hi-zdG" id="sPK-gS-u6k"/>
                         <outlet property="myWebView" destination="43S-bv-jqO" id="1Kv-Ah-r4C"/>
+                        <outlet property="stopButton" destination="pMT-qc-Pw0" id="ZO1-dV-a5G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qh2-T1-AhA" sceneMemberID="firstResponder"/>

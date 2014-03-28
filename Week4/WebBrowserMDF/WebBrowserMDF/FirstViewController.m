@@ -21,6 +21,7 @@
     NSURL *url = [[NSURL alloc] initWithString:@"http://www.apple.com"];
     if(url != nil)
     {
+        
         //create request object based on URL
         NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
         if(request != nil)
@@ -40,9 +41,14 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+        stopButton.enabled = true;
+}
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
+    stopButton.enabled = false;
     backButton.enabled = (myWebView.canGoBack);
 }
 
@@ -73,7 +79,10 @@
         //We clicked the reload button
         else if (item.tag == 2)
         {
+            if(!myWebView.isLoading)
+            {
                 [myWebView reload];
+            }
         }
     }
 }
